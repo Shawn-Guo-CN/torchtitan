@@ -1,0 +1,383 @@
+/var/spool/slurm/job6165299/slurm_script: line 75: dcgmi: command not found
+W1020 00:46:56.725000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1020 00:46:56.725000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1020 00:46:56.725000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1020 00:46:56.725000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1020 00:46:56.725000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1020 00:46:56.725000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1020 00:46:56.725000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1020 00:46:56.725000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1020 00:46:56.725000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1020 00:46:56.725000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.138:29500
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6165299/torchelastic_uq8e58z4
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1020 00:46:56.730000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.138:29500
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6165299/torchelastic_cbcet283
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1020 00:46:56.730000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.138:29500
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6165299/torchelastic_t8_q2hlo
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1020 00:46:56.730000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.138:29500
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6165299/torchelastic_1xlbbs3e
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1020 00:46:56.730000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1020 00:46:56.950000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1020 00:46:56.954000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1020 00:46:57.225000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1020 00:46:57.230000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1020 00:46:57.328000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1020 00:46:57.334000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1020 00:46:57.592000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1020 00:46:57.596000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.138
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=38275
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.895000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.138
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=38275
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=2
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[8, 9, 10, 11]
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[8, 9, 10, 11]
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.896000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.138
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=38275
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.895000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.138
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=38275
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=3
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[12, 13, 14, 15]
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[12, 13, 14, 15]
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1020 00:46:58.895000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1020 00:46:58.900000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1020 00:46:58.900000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1020 00:46:58.900000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1020 00:46:58.901000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1020 00:46:58.905000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1020 00:46:58.905000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1020 00:46:58.905000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1020 00:46:58.907000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1020 00:46:58.909000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1020 00:46:58.909000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1020 00:46:58.909000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1020 00:46:58.911000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1020 00:46:58.912000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I1020 00:46:58.913000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I1020 00:46:58.913000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I1020 00:46:58.915000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+/work/ec280/ec280/shawn/vtorchtitan/bin/python: can't open file '/mnt/lustre/e1000/home/ec280/ec280/shawn/./train.py': [Errno 2] No such file or directory
+E1020 00:46:59.224000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 2) local_rank: 0 (pid: 2200368) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1020 00:46:59.227000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 2) local_rank: 0 (pid: 1029703) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1020 00:46:59.226000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 2) local_rank: 0 (pid: 3189172) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1020 00:46:59.227000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 2) local_rank: 0 (pid: 2564880) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+I1020 00:46:59.371000 2200259 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 8)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+I1020 00:46:59.372000 3189063 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 4)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+I1020 00:46:59.374000 2564772 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 12)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n5.ib0.icexa.epcc.ed.ac.uk
+  rank      : 9 (local_rank: 1)
+  exitcode  : 2 (pid: 2200369)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n5.ib0.icexa.epcc.ed.ac.uk
+  rank      : 10 (local_rank: 2)
+  exitcode  : 2 (pid: 2200370)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n5.ib0.icexa.epcc.ed.ac.uk
+  rank      : 11 (local_rank: 3)
+  exitcode  : 2 (pid: 2200371)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+I1020 00:46:59.376000 1029591 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 0)
+    return f(*args, **kwargs)
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n5.ib0.icexa.epcc.ed.ac.uk
+  rank      : 8 (local_rank: 0)
+  exitcode  : 2 (pid: 2200368)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 5 (local_rank: 1)
+  exitcode  : 2 (pid: 3189173)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 6 (local_rank: 2)
+  exitcode  : 2 (pid: 3189174)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 7 (local_rank: 3)
+  exitcode  : 2 (pid: 3189175)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 4 (local_rank: 0)
+  exitcode  : 2 (pid: 3189172)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n6.ib0.icexa.epcc.ed.ac.uk
+  rank      : 13 (local_rank: 1)
+  exitcode  : 2 (pid: 2564881)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n6.ib0.icexa.epcc.ed.ac.uk
+  rank      : 14 (local_rank: 2)
+  exitcode  : 2 (pid: 2564882)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n6.ib0.icexa.epcc.ed.ac.uk
+  rank      : 15 (local_rank: 3)
+  exitcode  : 2 (pid: 2564883)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n6.ib0.icexa.epcc.ed.ac.uk
+  rank      : 12 (local_rank: 0)
+  exitcode  : 2 (pid: 2564880)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+    elastic_launch(
+============================================================
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n1.ib0.icexa.epcc.ed.ac.uk
+  rank      : 1 (local_rank: 1)
+  exitcode  : 2 (pid: 1029704)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n1.ib0.icexa.epcc.ed.ac.uk
+  rank      : 2 (local_rank: 2)
+  exitcode  : 2 (pid: 1029705)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n1.ib0.icexa.epcc.ed.ac.uk
+  rank      : 3 (local_rank: 3)
+  exitcode  : 2 (pid: 1029706)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-20_00:46:59
+  host      : r2i7n1.ib0.icexa.epcc.ed.ac.uk
+  rank      : 0 (local_rank: 0)
+  exitcode  : 2 (pid: 1029703)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: r2i7n5: task 2: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=6165299.1
+srun: error: r2i7n3: task 1: Exited with exit code 1
+srun: error: r2i7n1: task 0: Exited with exit code 1
+srun: error: r2i7n6: task 3: Exited with exit code 1
+/var/spool/slurm/job6165299/slurm_script: line 79: dcgmi: command not found

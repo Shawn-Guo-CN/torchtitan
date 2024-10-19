@@ -14,14 +14,14 @@
 #SBATCH --exclusive
 #SBATCH --account=ec280
 
-#SBATCH --ntasks=4
+# --ntasks=4
 #SBATCH --nodes=4
 
-#SBATCH --gpus-per-task=4
+#--gpus-per-task=4
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:4
-
-#SBATCH --time=24:00:00
+#SBATCH --qos=gpu
+#SBATCH --time=96:00:00
 #SBATCH --output=logs/torchtitan_multi_node_%j.out
 #SBATCH --error=logs/torchtitan_multi_node_%j.err
 
