@@ -11,6 +11,8 @@
 # ---
 
 #SBATCH --job-name=torchtitan_multi_node
+#SBATCH --exclusive
+#SBATCH --account=ec280
 
 #SBATCH --ntasks=4
 #SBATCH --nodes=4
