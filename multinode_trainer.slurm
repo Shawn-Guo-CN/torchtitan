@@ -22,6 +22,20 @@
 #SBATCH --output=logs/torchtitan_multi_node_%j.out
 #SBATCH --error=logs/torchtitan_multi_node_%j.err
 
+cd /work/ec280/ec280/shawn
+# load cuda module
+echo "Loading cuda module"
+module load nvidia/nvhpc/24.5
+module load nvidia/cudnn/9.2.0-cuda-12.4
+echo ${NVHPC_ROOT}
+export CUDA_HOME=${NVHPC_ROOT}/cuda
+
+# activate vitural environment
+source /work/ec280/ec280/shawn/vtorchtitan/bin/activate
+
+# NOTE: remember to update the HOME environment variable
+export HOME=/work/ec280/ec280/shawn
+export HF_HOME=/work/ec280/ec280/shawn/hf_home
 
 nodes=( $( scontrol show hostnames $SLURM_JOB_NODELIST ) )
 nodes_array=($nodes)
