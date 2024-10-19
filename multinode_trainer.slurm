@@ -13,14 +13,14 @@
 #SBATCH --job-name=torchtitan_multi_node
 
 #SBATCH --ntasks=4
-
 #SBATCH --nodes=4
+#SBATCH --gpus-per-task=4
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=gpu
 
-#SBATCH --gpus-per-task=8
-
-#SBATCH --cpus-per-task=96
-
-#SBATCH --partition=train
+#SBATCH --time=24:00:00
+#SBATCH --output=logs/torchtitan_multi_node_%j.out
+#SBATCH --error=logs/torchtitan_multi_node_%j.err
 
 
 nodes=( $( scontrol show hostnames $SLURM_JOB_NODELIST ) )
@@ -53,10 +53,10 @@ export NCCL_SOCKET_IFNAME="eth0,en,eth,em,bond"
 export NCCL_BUFFSIZE=2097152
 #export TORCH_DIST_INIT_BARRIER=1
 export FI_EFA_SET_CUDA_SYNC_MEMOPS=0
-CONFIG_FILE=${CONFIG_FILE:-"./train_configs/llama2_13b.toml"}
+CONFIG_FILE=${CONFIG_FILE:-"./train_configs/llama3_multi_test.toml"}
 
 dcgmi profile --pause
 # adjust sbatch --ntasks and sbatch --nodes above and --nnodes below
 # to your specific node count, and update target launch file.
-srun torchrun --nnodes 4 --nproc_per_node 8 --rdzv_id 101 --rdzv_backend c10d --rdzv_endpoint "$head_node_ip:29500" ./train.py --job.config_file ${CONFIG_FILE}
+srun torchrun --nnodes 4 --nproc_per_node 4 --rdzv_id 101 --rdzv_backend c10d --rdzv_endpoint "$head_node_ip:29500" ./train.py --job.config_file ${CONFIG_FILE}
 dcgmi profile --resume
