@@ -16,9 +16,11 @@
 
 #SBATCH --ntasks=4
 #SBATCH --nodes=4
+
 #SBATCH --gpus-per-task=4
 #SBATCH --cpus-per-task=8
 #SBATCH --partition=gpu
+#SBATCH --gres=gpu:4
 
 #SBATCH --time=24:00:00
 #SBATCH --output=logs/torchtitan_multi_node_%j.out
