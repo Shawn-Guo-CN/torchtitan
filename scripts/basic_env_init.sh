@@ -7,7 +7,6 @@ export HF_HOME=/work/ec280/ec280/shawn/hf_home
 # load cuda module
 module load nvidia/nvhpc/24.5
 module load nvidia/cudnn/9.2.0-cuda-12.4
-echo ${NVHPC_ROOT}
 export CUDA_HOME=${NVHPC_ROOT}/cuda # or export CUDA_HOME=${NVHPC_ROOT}
 
 # activate vitural environment
