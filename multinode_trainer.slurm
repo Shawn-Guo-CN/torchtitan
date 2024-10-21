@@ -72,8 +72,6 @@ export NCCL_BUFFSIZE=2097152
 export FI_EFA_SET_CUDA_SYNC_MEMOPS=0
 CONFIG_FILE=${CONFIG_FILE:-"./train_configs/llama3_multi_test.toml"}
 
-dcgmi profile --pause
 # adjust sbatch --ntasks and sbatch --nodes above and --nnodes below
 # to your specific node count, and update target launch file.
 srun torchrun --nnodes 4 --nproc_per_node 4 --rdzv_id 101 --rdzv_backend c10d --rdzv_endpoint "$head_node_ip:29500" ./train.py --job.config_file ${CONFIG_FILE}
-dcgmi profile --resume
