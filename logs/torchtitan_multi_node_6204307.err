@@ -1,0 +1,20 @@
+W1026 15:20:19.076000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1026 15:20:19.076000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:20:19.076000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1026 15:20:19.076000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.103:29500
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6204307/torchelastic_4klspgda
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1026 15:20:19.145000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1026 15:20:19.149000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
