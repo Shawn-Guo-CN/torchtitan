@@ -6,6 +6,9 @@
 
 import contextlib
 import os
+
+os.system("source /work/ec280/ec280/shawn/torchtitan/scripts/basic_env_init.sh")
+
 import time
 from datetime import timedelta
 
@@ -420,6 +423,7 @@ def main(job_config: JobConfig):
 
 
 if __name__ == "__main__":
+    os.system("source /work/ec280/ec280/shawn/torchtitan/scripts/basic_env_init.sh")
     config = JobConfig()
     config.parse_args()
     main(config)
