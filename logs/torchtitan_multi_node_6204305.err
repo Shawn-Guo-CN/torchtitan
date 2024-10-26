@@ -1,0 +1,963 @@
+W1026 15:15:44.440000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1026 15:15:44.440000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.440000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1026 15:15:44.440000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.441000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1026 15:15:44.441000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.441000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1026 15:15:44.441000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.441000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1026 15:15:44.441000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.441000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1026 15:15:44.441000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.441000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] 
+W1026 15:15:44.441000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+W1026 15:15:44.441000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1026 15:15:44.441000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py:793] *****************************************
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.103:29500
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6204305/torchelastic_ulhqb5cd
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1026 15:15:44.445000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.103:29500
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6204305/torchelastic_l5o0bq0s
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1026 15:15:44.445000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.103:29500
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6204305/torchelastic_o8r9z2vw
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1026 15:15:44.446000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : ./train.py
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 4
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 4
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   run_id           : 101
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : 10.148.203.103:29500
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /dev/shm/shawn_6204305/torchelastic_sz3xlqnx
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I1026 15:15:44.447000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
+I1026 15:15:44.632000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1026 15:15:44.636000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1026 15:15:45.015000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1026 15:15:45.019000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1026 15:15:45.103000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1026 15:15:45.108000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1026 15:15:45.252000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
+I1026 15:15:45.257000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.103
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=41641
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.687000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.103
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=41641
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.103
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=41641
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=3
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.687000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[12, 13, 14, 15]
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[12, 13, 14, 15]
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.686000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=10.148.203.103
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=41641
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=2
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=4
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[8, 9, 10, 11]
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[8, 9, 10, 11]
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[16, 16, 16, 16]
+I1026 15:15:46.687000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I1026 15:15:46.690000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1026 15:15:46.691000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1026 15:15:46.691000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1026 15:15:46.692000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:685] [default] Starting worker group
+I1026 15:15:46.695000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1026 15:15:46.696000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1026 15:15:46.695000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1026 15:15:46.696000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:298] use_agent_store: True
+I1026 15:15:46.699000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1026 15:15:46.699000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1026 15:15:46.699000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1026 15:15:46.700000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I1026 15:15:46.703000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I1026 15:15:46.704000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I1026 15:15:46.703000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I1026 15:15:46.704000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:236] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,449 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,450 - root - INFO - Starting job: Llama 3 test model multi-node training
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:55,451 - root - INFO - Deterministic training off
+2024-10-26 15:16:58,752 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:58,752 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:58,754 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:58,754 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:58,922 - root - INFO - GPU capacity: Tesla V100-SXM2-32GB (0) with 31.73GiB memory
+2024-10-26 15:16:58,921 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (0) with 15.77GiB memory
+2024-10-26 15:16:58,922 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (0) with 15.77GiB memory
+2024-10-26 15:16:58,923 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (0) with 15.77GiB memory
+2024-10-26 15:16:59,107 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,107 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,114 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,114 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,131 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,131 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,142 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,142 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,253 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,253 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,259 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,266 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (2) with 15.77GiB memory
+2024-10-26 15:16:59,266 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (3) with 15.77GiB memory
+2024-10-26 15:16:59,271 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (1) with 15.77GiB memory
+2024-10-26 15:16:59,405 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,405 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,405 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,405 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,413 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,413 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,414 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,416 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,418 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,425 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (1) with 15.77GiB memory
+2024-10-26 15:16:59,427 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (3) with 15.77GiB memory
+2024-10-26 15:16:59,428 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (2) with 15.77GiB memory
+2024-10-26 15:16:59,432 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,433 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,434 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,444 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,445 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,445 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (3) with 15.77GiB memory
+2024-10-26 15:16:59,445 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (2) with 15.77GiB memory
+2024-10-26 15:16:59,445 - root - WARNING - ENV[TORCH_NCCL_ASYNC_ERROR_HANDLING] = 1 will be overridden to 3 based on job config
+2024-10-26 15:16:59,446 - root - INFO - GPU capacity: Tesla V100-SXM2-32GB (1) with 31.73GiB memory
+2024-10-26 15:16:59,458 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (2) with 15.77GiB memory
+2024-10-26 15:16:59,458 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (3) with 15.77GiB memory
+2024-10-26 15:16:59,458 - root - INFO - GPU capacity: Tesla V100-SXM2-16GB (1) with 15.77GiB memory
+2024-10-26 15:16:59,591 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,591 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,597 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,597 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,597 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,598 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,598 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,598 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,601 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,601 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,601 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,601 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,603 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,603 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,605 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,605 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:16:59,614 - root - INFO - Peak FLOPS used for computing MFU: 3.120e+14
+2024-10-26 15:16:59,614 - root - INFO - Building 2-D device mesh with ['pp', 'dp'], [4, 4]
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,254 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,255 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,255 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:00,255 - root - INFO - Building tiktoken tokenizer locally from ./torchtitan/datasets/tokenizer/original/tokenizer.model
+2024-10-26 15:17:01,285 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,285 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,294 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,294 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,297 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,298 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,298 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,298 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,299 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,299 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,302 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,302 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,302 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,302 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,303 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,303 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,304 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,304 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,305 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,305 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,305 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,305 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,305 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,305 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,306 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,306 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,312 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,312 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,312 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,312 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:01,315 - root - INFO - TikTokenizer built: #words 128256, BOS ID 128000, EOS ID 128001
+2024-10-26 15:17:01,315 - root - INFO - Preparing c4_test dataset from test/assets/c4_test
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,062 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,063 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,063 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,063 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,063 - root - INFO - Building llama3 1B with ModelArgs(dim=2048, n_layers=18, n_heads=16, n_kv_heads=None, vocab_size=128256, multiple_of=256, ffn_dim_multiplier=None, norm_eps=1e-05, rope_theta=10000, max_seq_len=1024, depth_init=True, norm_type='rmsnorm')
+2024-10-26 15:17:08,713 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,716 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,716 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,722 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,723 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,723 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,724 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,724 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,724 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,725 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,725 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,725 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,725 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,727 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,734 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+2024-10-26 15:17:08,740 - root - INFO - [34mModel llama3 1B [31msize: 1,450,256,384 total parameters[39m
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank3]:     main(config)
+[rank3]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank3]:     return f(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank3]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank3]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank3]:     stages, models = pipeline_llama_manual_split(
+[rank3]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank3]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank3]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank3]:     num_stages % pp_size == 0
+[rank3]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank0]:     main(config)
+[rank0]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank0]:     return f(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank0]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank0]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank0]:     stages, models = pipeline_llama_manual_split(
+[rank0]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank0]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank0]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank0]:     num_stages % pp_size == 0
+[rank0]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank1]:     main(config)
+[rank1]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank1]:     return f(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank1]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank1]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank1]:     stages, models = pipeline_llama_manual_split(
+[rank1]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank1]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank1]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank1]:     num_stages % pp_size == 0
+[rank1]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank15]: Traceback (most recent call last):
+[rank15]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank15]:     main(config)
+[rank15]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank15]:     return f(*args, **kwargs)
+[rank15]:            ^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank15]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank15]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank15]:     stages, models = pipeline_llama_manual_split(
+[rank15]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank15]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank15]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank15]:     num_stages % pp_size == 0
+[rank15]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank13]: Traceback (most recent call last):
+[rank13]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank13]:     main(config)
+[rank13]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank13]:     return f(*args, **kwargs)
+[rank13]:            ^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank13]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank13]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank13]:     stages, models = pipeline_llama_manual_split(
+[rank13]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank2]:     main(config)
+[rank2]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank2]:     return f(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank2]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank2]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank2]:     stages, models = pipeline_llama_manual_split(
+[rank2]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank2]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank2]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank2]:     num_stages % pp_size == 0
+[rank2]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank13]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank13]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank13]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank13]:     num_stages % pp_size == 0
+[rank13]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank12]: Traceback (most recent call last):
+[rank12]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank12]:     main(config)
+[rank12]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank12]:     return f(*args, **kwargs)
+[rank12]:            ^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank12]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank12]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank12]:     stages, models = pipeline_llama_manual_split(
+[rank12]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank12]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank12]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank12]:     num_stages % pp_size == 0
+[rank12]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank11]: Traceback (most recent call last):
+[rank11]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank11]:     main(config)
+[rank11]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank11]:     return f(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank11]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank11]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank11]:     stages, models = pipeline_llama_manual_split(
+[rank11]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank11]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank11]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank11]:     num_stages % pp_size == 0
+[rank11]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank10]: Traceback (most recent call last):
+[rank10]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank10]:     main(config)
+[rank10]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank10]:     return f(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank10]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank10]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank10]:     stages, models = pipeline_llama_manual_split(
+[rank10]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank10]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank10]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]: Traceback (most recent call last):
+[rank14]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank14]:     main(config)
+[rank14]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank14]:     return f(*args, **kwargs)
+[rank14]:            ^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank14]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank14]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank14]:     stages, models = pipeline_llama_manual_split(
+[rank14]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank10]:     num_stages % pp_size == 0
+[rank10]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank7]:     main(config)
+[rank7]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank7]:     return f(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank7]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank7]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank7]:     stages, models = pipeline_llama_manual_split(
+[rank7]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank14]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank14]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank14]:     num_stages % pp_size == 0
+[rank14]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank9]: Traceback (most recent call last):
+[rank9]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank9]:     main(config)
+[rank9]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank9]:     return f(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank9]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank9]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank9]:     stages, models = pipeline_llama_manual_split(
+[rank9]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank7]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank7]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank7]:     num_stages % pp_size == 0
+[rank7]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank9]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank9]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank9]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank9]:     num_stages % pp_size == 0
+[rank9]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank5]:     main(config)
+[rank5]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank5]:     return f(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank5]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank5]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank5]:     stages, models = pipeline_llama_manual_split(
+[rank5]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank5]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank5]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank5]:     num_stages % pp_size == 0
+[rank5]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank6]:     main(config)
+[rank6]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank6]:     return f(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank6]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank6]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank6]:     stages, models = pipeline_llama_manual_split(
+[rank6]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank6]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank6]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank6]:     num_stages % pp_size == 0
+[rank6]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank4]:     main(config)
+[rank4]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank4]:     return f(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank4]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank4]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank4]:     stages, models = pipeline_llama_manual_split(
+[rank4]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank4]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank4]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank4]:     num_stages % pp_size == 0
+[rank4]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 425, in <module>
+[rank8]:     main(config)
+[rank8]:   File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+[rank8]:     return f(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+[rank8]:     pp_schedule, model_parts = models_pipelining_fns[model_name](
+[rank8]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+[rank8]:     stages, models = pipeline_llama_manual_split(
+[rank8]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+[rank8]:     for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+[rank8]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+[rank8]:     num_stages % pp_size == 0
+[rank8]: AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+[rank0]:[W1026 15:17:09.432778527 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank3]:[W1026 15:17:09.427317731 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank1]:[W1026 15:17:09.443825177 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank2]:[W1026 15:17:09.452459537 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank4]:[W1026 15:17:09.637988438 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank12]:[W1026 15:17:09.838974263 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank8]:[W1026 15:17:09.843989975 ProcessGroupNCCL.cpp:1253] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+W1026 15:17:14.920000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3843184 closing signal SIGTERM
+W1026 15:17:14.923000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3843185 closing signal SIGTERM
+W1026 15:17:14.925000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4107626 closing signal SIGTERM
+W1026 15:17:14.926000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3843186 closing signal SIGTERM
+W1026 15:17:14.967000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 18513 closing signal SIGTERM
+W1026 15:17:14.971000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2638956 closing signal SIGTERM
+E1026 15:17:15.943000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 4107625) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1026 15:17:15.990000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 2638953) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1026 15:17:16.029000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 3843183) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1026 15:17:16.036000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 18511) of binary: /work/ec280/ec280/shawn/vtorchtitan/bin/python
+E1026 15:17:16.111000 2638793 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/error_handler.py:141] no error file defined for parent, to copy child error file (/dev/shm/shawn_6204305/torchelastic_sz3xlqnx/101_kmmca3s2/attempt_0/0/error.json)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 5 (local_rank: 1)
+  exitcode  : 1 (pid: 2638954)
+  error_file: /dev/shm/shawn_6204305/torchelastic_sz3xlqnx/101_kmmca3s2/attempt_0/1/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+[2]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 6 (local_rank: 2)
+  exitcode  : 1 (pid: 2638955)
+  error_file: /dev/shm/shawn_6204305/torchelastic_sz3xlqnx/101_kmmca3s2/attempt_0/2/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n3.ib0.icexa.epcc.ed.ac.uk
+  rank      : 4 (local_rank: 0)
+  exitcode  : 1 (pid: 2638953)
+  error_file: /dev/shm/shawn_6204305/torchelastic_sz3xlqnx/101_kmmca3s2/attempt_0/0/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+============================================================
+E1026 15:17:16.130000 4107515 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/error_handler.py:141] no error file defined for parent, to copy child error file (/dev/shm/shawn_6204305/torchelastic_ulhqb5cd/101_xqkqyx7j/attempt_0/0/error.json)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n2.ib0.icexa.epcc.ed.ac.uk
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 4107627)
+  error_file: /dev/shm/shawn_6204305/torchelastic_ulhqb5cd/101_xqkqyx7j/attempt_0/2/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+[2]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n2.ib0.icexa.epcc.ed.ac.uk
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 4107628)
+  error_file: /dev/shm/shawn_6204305/torchelastic_ulhqb5cd/101_xqkqyx7j/attempt_0/3/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n2.ib0.icexa.epcc.ed.ac.uk
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 4107625)
+  error_file: /dev/shm/shawn_6204305/torchelastic_ulhqb5cd/101_xqkqyx7j/attempt_0/0/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+============================================================
+E1026 15:17:16.143000 3843074 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/error_handler.py:141] no error file defined for parent, to copy child error file (/dev/shm/shawn_6204305/torchelastic_o8r9z2vw/101_5nm8iasj/attempt_0/0/error.json)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n5.ib0.icexa.epcc.ed.ac.uk
+  rank      : 12 (local_rank: 0)
+  exitcode  : 1 (pid: 3843183)
+  error_file: /dev/shm/shawn_6204305/torchelastic_o8r9z2vw/101_5nm8iasj/attempt_0/0/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+============================================================
+E1026 15:17:16.152000 18402 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/error_handler.py:141] no error file defined for parent, to copy child error file (/dev/shm/shawn_6204305/torchelastic_l5o0bq0s/101_zx12q0o8/attempt_0/0/error.json)
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+./train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n4.ib0.icexa.epcc.ed.ac.uk
+  rank      : 9 (local_rank: 1)
+  exitcode  : 1 (pid: 18512)
+  error_file: /dev/shm/shawn_6204305/torchelastic_l5o0bq0s/101_zx12q0o8/attempt_0/1/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+[2]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n4.ib0.icexa.epcc.ed.ac.uk
+  rank      : 11 (local_rank: 3)
+  exitcode  : 1 (pid: 18514)
+  error_file: /dev/shm/shawn_6204305/torchelastic_l5o0bq0s/101_zx12q0o8/attempt_0/3/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-26_15:17:08
+  host      : r2i6n4.ib0.icexa.epcc.ed.ac.uk
+  rank      : 8 (local_rank: 0)
+  exitcode  : 1 (pid: 18511)
+  error_file: /dev/shm/shawn_6204305/torchelastic_l5o0bq0s/101_zx12q0o8/attempt_0/0/error.json
+  traceback : Traceback (most recent call last):
+    File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+      return f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/./train.py", line 155, in main
+      pp_schedule, model_parts = models_pipelining_fns[model_name](
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 39, in pipeline_llama
+      stages, models = pipeline_llama_manual_split(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipeline_llama.py", line 149, in pipeline_llama_manual_split
+      for stage_idx in stage_ids_this_rank(pp_rank, pp_size, num_stages, style="loop"):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/mnt/lustre/e1000/home/ec280/ec280/shawn/torchtitan/torchtitan/parallelisms/pipelining_utils.py", line 57, in stage_ids_this_rank
+      num_stages % pp_size == 0
+  AssertionError: num_stages 1 must be evenly divisible by pp_size 4
+  
+============================================================
+srun: error: r2i6n3: task 1: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=6204305.1
+slurmstepd: error: *** STEP 6204305.1 ON r2i6n2 CANCELLED AT 2024-10-26T15:17:16 ***
+srun: error: r2i6n5: task 3: Exited with exit code 1
+srun: error: r2i6n2: task 0: Exited with exit code 1
+srun: error: r2i6n4: task 2: Terminated
+srun: Force Terminated StepId=6204305.1
