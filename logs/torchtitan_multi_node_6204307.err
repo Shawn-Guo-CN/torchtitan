@@ -18,3 +18,44 @@ I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtit
 I1026 15:20:19.081000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py:194] 
 I1026 15:20:19.145000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:860] [default] starting workers for entrypoint: python
 I1026 15:20:19.149000 4108217 /mnt/lustre/e1000/home/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:677] [default] Rendezvous'ing worker group
+Traceback (most recent call last):
+  File "/work/ec280/ec280/shawn/vtorchtitan/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 260, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 864, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 683, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1162, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/work/ec280/ec280/shawn/vtorchtitan/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 679, in run
+    raise RendezvousTimeoutError
+torch.distributed.elastic.rendezvous.api.RendezvousTimeoutError
