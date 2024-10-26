@@ -66,4 +66,4 @@ echo "Environment variables are set"
 # adjust sbatch --ntasks and sbatch --nodes above and --nnodes below
 # to your specific node count, and update target launch file.
 echo "Starting torch.distributed run on $SLURM_JOB_NUM_NODES nodes"
-srun --export=ALL torchrun --nnodes 4 --nproc_per_node 4 --rdzv_id 101 --rdzv_backend c10d --rdzv_endpoint "$head_node_ip:29500" ./train.py --job.config_file ${CONFIG_FILE}
+torchrun --nnodes 4 --nproc_per_node 4 --rdzv_id 101 --rdzv_backend c10d --rdzv_endpoint "$head_node_ip:29500" ./train.py --job.config_file ${CONFIG_FILE}
